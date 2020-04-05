@@ -1,0 +1,84 @@
+
+
+.div1{
+  text-align: center;
+  display: flex;
+}
+.div2,.div3,.div4{
+      padding: 10px;
+}
+
+.div2 input{
+  width: 100%;
+  position: absolute;
+}
+
+.set-font{
+  font-size: -webkit-xxx-large;
+  color: #359c9c;
+}
+
+.menu-styl{
+    background-color: #359c9c;
+    padding: 5px;
+    font-size: 21px;
+    font-family: cursive;
+}
+i{
+  cursor: pointer;
+}
+
+.icon{
+     margin-top: 24%;
+    margin-left: 10%;
+}
+.set-header{
+  padding: 15px 15px 0px 0px;
+    font-family: fantasy;
+    font-size: 30px;
+    color: #359c9c;
+
+}
+.set-input-height{
+  height:50px;
+  font-size: 21px;
+    padding: 10px;
+    font-family: inherit;
+        border-radius: 50px;
+    border-color: #15141445;
+}
+.set-float-right{
+  float:right;
+}
+.login-font{
+  font-size: 22px;
+  color: #2763d0 !important;
+}
+.item:hover{
+  
+      cursor: pointer;
+    color: #00ff80;
+}
+.item{
+  text-align: center;
+}
+.tag-line{
+    font-size: 11px;
+    color: #268182;
+    font-family: monospace;
+    float: right;
+}
+.btn-link {
+    color: #373a3e !important;
+}
+input:focus{
+  outline:none;
+}
+
+ul{
+  list-style: none;
+}
+.cart-icon a{
+  color:white;
+  font-size:20px;
+}
