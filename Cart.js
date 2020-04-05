@@ -1,19 +1,23 @@
+import React from "react";
+import Header from "./Header";
+import List from "./List";
+import { Footer } from "./Footer";
+import "./Cart.css";
 
-import React from 'react';
-import Header from './Header';
-import List from './List';
-import {Footer}  from './Footer'
-
-const Cart = (props) => {
+const Cart = props => {
   return (
     <div>
       <Header />
       <List />
-      <h1>Cart is empty</h1>
+      <div className="cart">
+        <img
+          src={"https://www.inampro.nic.in/writereaddata/images/emptycart2.png"}
+        />
+      </div>
       {console.log(props.data)}
       <Footer />
     </div>
-  )
-}
+  );
+};
 
 export default Cart;

@@ -1,10 +1,7 @@
 .pt20{
   padding-top:20px;
 }
-.offer-zone img{
-  animation: ImagBlink linear 0.9s infinite;
-  width:20%;
-}
+
 @keyframes ImagBlink{
   from{
  opacity:0.1

@@ -7,7 +7,7 @@ const OrderDetails = (props) => {
     <div>
       <Header />
       <List />
-      <h2>OrderDetails</h2>
+      <h5>Order Details</h5>
     </div>
   )
 }

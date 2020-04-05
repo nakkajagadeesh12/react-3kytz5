@@ -19,7 +19,7 @@ border: 1px solid gray;
 }
 
 .it-2{
-/* height: 25px; */
+height: 25px; 
 }
 
 .class1{
@@ -48,9 +48,9 @@ border: 1px solid gray;
 }
 
 img {
-  /* margin: 2px;
+  margin: 2px;
   width: 150px;
-  height: 150px; */
+  height: 150px; 
 }
 
 .popup-data{

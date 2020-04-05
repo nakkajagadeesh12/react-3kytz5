@@ -1,11 +1,118 @@
-import React from 'react';
-import './DailyOffers.css';
+import React from "react";
+import "./DailyOffers.css";
 
-
-const DailyOffers=()=>{
-  return <div><h5 className='offer-zone'>
-  <marquee>Today Offers</marquee>
-  <img src={'https://cdn.pixabay.com/photo/2014/10/04/15/31/sticker-473635_960_720.png'} />
-  </h5></div>
-}
+const DailyOffers = () => {
+  return (
+    <div className="item-list offer-zone">
+      <marquee>Today Offers</marquee>
+      <img
+        src={"https://images.freekaamaal.com/store_desc_images/1515145891.jpg"}
+      />
+      <img
+        src={
+          "https://inacents.com/wp-content/uploads/2012/04/Discover-Grocery-5CB-May-2012.png"
+        }
+      />
+      <img
+        src={
+          "https://image.shutterstock.com/image-photo/paper-boxes-shopping-cart-on-600w-577492282.jpg"
+        }
+      />
+      <img
+        src={"https://datainfovision.com/images/industries/heading-png.png"}
+      />
+      <img
+        src={
+          "https://content3.jdmagicbox.com/comp/kurnool/z4/9999p8518.8518.190124095009.x3z4/catalogue/glaze-galway-products-gonegandla-kurnool-health-care-product-manufacturers-9exdziwah3.jpg?clr=101a56"
+        }
+      />
+      <img
+        src={
+          "https://seroyamart.com/blog/wp-content/uploads/2014/07/Staple-Food-Online.jpg"
+        }
+      />
+      <img
+        src={
+          "https://cdn.shopify.com/s/files/1/0122/2033/4180/files/COMBO_PACK1_1.jpg?18462"
+        }
+      />
+      <img
+        src={
+          "https://akm-img-a-in.tosshub.com/sites/btmt/images/stories/grofers-660_010819074356.jpg"
+        }
+      />
+      <img
+        src={
+          "https://rukminim1.flixcart.com/image/832/832/jiovssw0/baby-cereal/y/y/v/300-wheat-orange-stage-2-cerelac-original-imaf6fw4bv79p8cz.jpeg?q=70"
+        }
+      />
+      <img src={"https://i.ytimg.com/vi/UnuP4vrLvc4/maxresdefault.jpg"} />
+      <img
+        src={
+          "https://glutenfreedelivers.com/template/images/white/glutenfree2.jpg"
+        }
+      />
+      <img
+        src={
+          "https://lh3.googleusercontent.com/proxy/VZ6UIBls8yD-eZH90MqTiy1Km0tA2mOnTGzqqXiEmC25Fi_fbUBCtczp3iCYok1SvbGy78WmioiDf_dvGbzrFlmXoNBnJXuPQDW8C5dd9ZogTx_suW4"
+        }
+      />
+      <img
+        src={
+          "https://akm-img-a-in.tosshub.com/sites/btmt/images/stories/grofers-660_010819074356.jpg"
+        }
+      />
+      <img
+        src={
+          "https://lh3.googleusercontent.com/proxy/1pP0kBbULnlyP5NrBhTM2iptQdX5ouplsOpzFLBf0pdI8E21ElAygs1QQltXrxhmZdhHV3Y_uYB_61ekUxwQVf-8y4OuCZTGsRUKG6VBIQ"
+        }
+      />
+      <img
+        src={
+          "https://3.imimg.com/data3/QB/SJ/MY-8376217/online-electronic-shopping-store-500x500.jpg"
+        }
+      />
+      <img
+        src={
+          "https://n2.sdlcdn.com/imgs/b/k/d/Shalimar-Products-Blue-Lifestyle-Shoes-SDL109822619-1-10809.jpg"
+        }
+      />
+      <img
+        src={
+          "https://hnscraftsmanship.com/pub/media/wysiwyg/homepage/blocks/image_3n.jpg"
+        }
+      />
+      <img
+        src={
+          "https://qph.fs.quoracdn.net/main-qimg-172302fb67001086ecf058d2e0addc45"
+        }
+      />
+      <img
+        src={
+          "https://i1.wp.com/coupon2cart.in/wp-content/uploads/2019/10/Save-upto-45-off-on-Healthcare-products-13.png"
+        }
+      />
+      <img
+        src={
+          "https://s.shld.net/is/image/Sears/20191201_k_HP_CYBER-SHO_DecWk1_v3_01?$cq_width_500$&qlt=90,0&resMode=sharp&op_usm=0.9,0.5,0,0,&jpegSize=100&bgc=ffffff"
+        }
+      />
+      <img
+        src={
+          "https://c3centrett.com/wp-content/uploads/2017/12/skechers-boxing-day-2017.jpg"
+        }
+      />
+      <img
+        src={
+          "https://assetscdn1.paytm.com/images/catalog/view_item/452299/1577362369611.jpg?imwidth=480&impolicy=hq"
+        }
+      />
+      <img
+        src={
+          "https://techhark.com/media/wysiwyg/home_small_banner/home_cat3.jpg"
+        }
+      />
+    </div>
+  );
+};
 export default DailyOffers;

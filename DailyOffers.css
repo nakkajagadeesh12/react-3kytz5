@@ -2,3 +2,19 @@
 .offer-zone{
       background: #ceb9d296;
 }
+img:hover{
+  cursor: pointer;
+  height: 100%;
+}
+.offer-zone img{
+  margin: 10px;
+  height: auto;
+  width:100%;
+  border-radius: 25px;
+}
+.item-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
