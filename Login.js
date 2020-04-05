@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "./Header";
 import List from "./List";
 import "./Login.css";
 
-const Login = () => {
+const Login = props => {
+  const NavToHome = () => {
+    const name = document.getElementById("uname").value;
+    const pwd = document.getElementById("pwd").value;
+    if (name && pwd) {
+      props.history.push("/");
+    }
+  };
   return (
     <div>
       <Header />
@@ -39,7 +46,9 @@ const Login = () => {
               <br />
             </div>
             <div class="login-btn">
-              <button class="btn btn-primary log-btn">Login</button>
+              <button class="btn btn-primary log-btn" onClick={NavToHome}>
+                Login
+              </button>
             </div>
           </form>
         </div>
